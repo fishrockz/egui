@@ -1131,6 +1131,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "custom_wgpu"
+version = "0.1.0"
+dependencies = [
+ "bytemuck",
+ "eframe",
+ "env_logger",
+ "log",
+ "profiling",
+ "wasm-bindgen",
+ "wasm-bindgen-futures",
+ "web-sys",
+ "wgpu",
+]
+
+[[package]]
 name = "custom_window_frame"
 version = "0.1.0"
 dependencies = [
